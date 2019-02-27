@@ -1,0 +1,2 @@
+./configure --enable-dbus --enable-udev --enable-speex
+

@@ -1,0 +1,40 @@
+xdg-open [PATH] - open directory in Files GUI ( use '.' to open current direcrtory)
+
+sudo service apache2 restart - restart apache server
+
+ifconfig - display currently active net interfaces (-a for all)
+
+cp [-r] [source] [dect] (r - recursive) Copy source folder to destination
+
+ln -//- -//- hard link
+
+ping, fping 
+
+$ rm {file-name}
+$ rm [options] {file-name}
+$ rm -f {file-name}
+$ rm -rf directoryname  
+
+curl [options] [URL...] - URL data exchange using protocols: DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, Telnet и TFTP.
+
+wget [URL] - download files/sites (recoursively too) 
+
+lsblk - list block device (handy for mount)
+
+mount [src] [dest]  ex: /dev/sdb1 /media/usbstick - mount usb device
+
+service --status-all - list all working services
+
+cat my-long-file.txt | more - (cat=concatinate) show text files in console (more - keep content from scrolling)
+
+chmod +x myShellScript.sh - change permission (add execute)
+
+chown nobody *txt - change ownership
+
+du -hs * - show directory sizes 
+
+mv [src] [dest] -  ctrl-x ctrl-v
+
+pwd - show current directory
+
+wc - (word count) for text files?
